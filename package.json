@@ -1,0 +1,25 @@
+{
+  "name": "nodepdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "download-file": "^0.1.5",
+    "download-pdf": "^0.1.6",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "oracledb": "^5.0.0",
+    "path": "^0.12.7",
+    "pdf-creator-node": "^1.4.1",
+    "pdf-lib": "^1.12.0",
+    "pdfkit": "^0.11.0",
+    "pdfmake": "^0.1.68"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

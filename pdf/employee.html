@@ -1,0 +1,43 @@
+<html>
+
+<head>
+    <mate charest="utf-8" />
+    <title>Employee List</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+
+        }
+
+        td,
+        th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Employee List</h1>
+    <table>
+        <tr>
+            <th>EmpID</th>
+            <th>Name</th>
+            <th>Salary</th>
+        </tr>
+        {{#each employee}}
+        <tr>
+            <td>{{this.id}}</td>
+            <td>{{this.name}}</td>
+            <td>{{this.salary}}</td>
+        </tr>
+        {{/each}}
+    </table>
+
+
+
+</body>
+
+</html>
